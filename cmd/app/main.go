@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	log.Println("run app...")
-
+	log.Println("start app...")
 	app.Run()
 }

@@ -134,10 +134,7 @@ func (n *Node) heart() {
 
 func (n *Node) String() string {
 	return fmt.Sprintf(
-		"port : %s, status : %s, state : %d",
-		n.Port,
-		n.Status.String(),
-		n.State)
+		"port : %s, status : %s", n.Port, n.Status.String())
 }
 
 func NewNode(port string) *Node {
